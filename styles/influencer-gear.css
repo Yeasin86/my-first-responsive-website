@@ -91,55 +91,6 @@ body {
     background-size: contain;
 }
 
-/* -----------------------------------
-     Responsiveness Page Banner
---------------------------------------*/
-
-@media only screen and (max-width: 588px) {
-    .page_header {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 10px;
-    }
-
-    .nav_links {
-        display: flex;
-        margin: 0;
-        padding: 10px;
-        width: 100%;
-        height: 20%;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: stretch;
-        align-content: flex-start;
-    }
-
-    .menu {
-        font-size: 12px;
-    }
-
-    .page_banner main {
-        margin: 10px;
-        flex-direction: column-reverse;
-    }
-
-    .left_side {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .banner_title {
-        font-size: 28px;
-    }
-
-    .right_side img {
-        width: 100%;
-    }
-}
-
 /* -------------------------------------
     Sponser's or Brands Styles 
 ----------------------------------------*/
@@ -272,27 +223,6 @@ body {
     letter-spacing: 1px;
     color: rgba(224, 44, 109, 0.87);
 }
-
-/* -------------------------------------
-    Popular Collection Responsive  
-------------------------------------------*/
-@media only screen and (max-width:588px) {
-    .products {
-
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .see-more {
-        left: 244px;
-    }
-
-    .product_cart {
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
 /* -------------------------------------
     Join or Subscribe Section Styles 
 -------------------------------------*/
@@ -330,32 +260,6 @@ body {
     color: white;
 }
 
-/* -----------------------------
-    responsive join now section
---------------------------------- */
-
-@media only screen and (max-width: 588px) {
-    .join_section {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .join_title{
-        font-size: 30px;
-    }
-    .img {
-        width: 80%;
-    }
-
-    .joining_details {
-        width: 80%;
-        padding: 10px;
-        margin: 0;
-    }
-
-    .join_now_button {
-        margin: 5px 0 40px 0;
-    }
-}
 
 /* -----------------------------
     Footer Designs Start Here
@@ -391,3 +295,100 @@ body {
     background: rgb(199, 205, 228);
 
 }
+
+/* -----------------------------------
+     Responsiveness Page Banner
+--------------------------------------*/
+
+@media only screen and (max-width: 588px) {
+    .page_header {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .nav_links {
+        display: flex;
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        height: 20%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: flex-start;
+    }
+
+    .menu {
+        font-size: 12px;
+    }
+
+    .page_banner main {
+        margin: 10px;
+        flex-direction: column-reverse;
+    }
+
+    .left_side {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .banner_title {
+        font-size: 28px;
+    }
+
+    .right_side img {
+        width: 100%;
+    }
+}
+
+/* -------------------------------------
+    Popular Collection Responsive  
+------------------------------------------*/
+@media only screen and (max-width:588px) {
+    .products {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more {
+        left: 244px;
+    }
+
+    .product_cart {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* -----------------------------
+    responsive join now section
+--------------------------------- */
+
+@media only screen and (max-width: 588px) {
+    .join_section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .join_title{
+        font-size: 30px;
+    }
+    .img {
+        width: 80%;
+    }
+
+    .joining_details {
+        width: 80%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .join_now_button {
+        margin: 5px 0 40px 0;
+    }
+}
+
